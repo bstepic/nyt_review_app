@@ -10,7 +10,7 @@ class HomePage extends Component {
     };
 
     /**
-     * On logout button click, clear localstorage, redirect user to login page
+     * On logout button click, clear local storage, redirect user to login page
      */
     logout = () => {
         localStorage.clear();
