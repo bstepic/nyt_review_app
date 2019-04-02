@@ -7,7 +7,7 @@ export default function ResultItem(props){
         <Card className="result-item shadow-sm">
             <CardBody>
                 <CardTitle>Review by {data.byline},
-                    <small className="text-muted">
+                    <small className="text-muted ml-2">
                         published on {data.publication_dt}
                     </small>
                 </CardTitle>
