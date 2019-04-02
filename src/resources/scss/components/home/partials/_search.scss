@@ -1,0 +1,14 @@
+.search-input {
+  margin-top: 50px;
+  height: 40px;
+  input {
+    height: 45px;
+    border: 1px solid $primary    ;
+  }
+  .input-group-append {
+    width: 160px;
+  }
+  button {
+    width: 160px;
+  }
+}

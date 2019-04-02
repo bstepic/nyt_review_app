@@ -1,0 +1,22 @@
+// My Bootstrap configuration
+@import 'custom-bootstrap';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+//imports
+
+// login page styles
+@import 'components/login';
+
+// loading mask styles
+@import 'components/loading-mask';
+
+//home page styles
+@import 'components/home/home-page';
+@import 'components/home/partials/navigation';
+@import 'components/home/partials/search';
+@import 'components/home/partials/results-list';
+@import 'components/home/partials/result-item';
+@import 'components/home/partials/nothing-found';
+
+.App {
+  height: 100vh;
+}
