@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.scss';
 import axios from 'axios';
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import HomePage from "./components/home/HomePage";
 import {PrivateRoute} from "./components/PrivateRoute";
 import PageNotFound from "./components/PageNotFound";
