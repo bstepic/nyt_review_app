@@ -10,5 +10,4 @@ dummy login credentials:
 username: test@gmail.com    
 password: test123
 
-testing for this application is started but it's far from over ;)
-I currently suck at testing react
+testing for this application is a todo item
